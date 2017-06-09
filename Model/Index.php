@@ -3,7 +3,7 @@
 include('db_config.php');
 $conexion=Conectar();
 if ($conexion) {
-	echo "hola funciono";
+	echo "La Conectar";
 }
 
  ?>

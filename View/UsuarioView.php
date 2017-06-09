@@ -3,19 +3,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registro de Usuarios</title>
+	<title>Usuarios</title>
 </head>
 <body>
 <form method="post" name="rUsuario" action="../Controler/USuariosControler.php">
-	<label>
-		Nombre del Usuario:
-		<input type="text" name="name">
-	</label></br>
-	<label>
-		Clave:
-		<input type="password" name="pass"></br>
-	</label>
-	<input value="Guardar" type="submit" name="envia" title="Guardar">
+	<div>
+		<label for="name">
+		Nombre:</label>
+		<input id="name" type="text" name="name" required>
+	
+	</div>
+	<div>
+		<label for="pass">
+		Clave:</label>
+		<input type="password" id="pass" name="pass" required></br>
+	
+	</div>
+	<div>
+		<input value="Guardar" type="submit" name="envia" title="Guardar">
+	</div>
+	
 </form>
 </body>
 </html>
