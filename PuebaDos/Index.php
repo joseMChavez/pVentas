@@ -6,7 +6,6 @@ define('URL', 'http://localhost/PruebaDos/');
 include_once 'Config/Autoload.php';
 Config\Autoload::run();
 $usu= new Modelos\UsuariosModel();
-$usu->saludo();
 include_once 'Views/Template.php';
 Config\Autoload::run(new Config\Request());
  ?>

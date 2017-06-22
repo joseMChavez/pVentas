@@ -6,7 +6,7 @@ class UsuariosModel{
     private $con;
      
     public function __construct() {
-        $this->$con  = new Conexion();
+        $this->$con  = new Modelos\Conexion();
     }
     public function saludo(){
         echo "saludo";

@@ -13,9 +13,9 @@ class Clientes
 		private $Nacionalidad;
 		private $Fecha;
 		private $con;
-	function __construct(argument)
+	function __construct()
 	{
-		$this->con= new Conexion();
+		$this->con= new Modelos\Conexion();
 	}
 
 	public function set($atributo,$value)
